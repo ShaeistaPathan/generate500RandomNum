@@ -11,16 +11,20 @@ public class GenerateRandom500Numbers {
 
 	@Test
 	public void generateRandomNumber() {
-		
+	
+		Set<Integer>mySet = new TreeSet<Integer>();
+		while(mySet.size( ) !=500){
+		mySet.add(ThreadLocalRandom.current().nextInt(100, 1000+1));
+		}
+		Object [ ] mySetArray = mySet.toArray( );
+		for(int i=0; i<mySetArray.length-1; i++) {
+		System.out.print( " " + mySetArray[i]);
+		}
+		System.out.println();
 		System.out.println("Give me a number");
 		Scanner userNumber= new Scanner(System.in);
 		int userNum = userNumber.nextInt( );
-		Set<Integer>mySet = new TreeSet<Integer>();
-		while(mySet.size( ) !=500){
-		mySet.add(ThreadLocalRandom.current().nextInt(userNum, 1000+1));
-		}
-		Object [ ] mySetArray = mySet.toArray( );
-		System.out.println("The smallest random number is: " + mySetArray[0]);
+		System.out.println("The smallest random number is: " + mySetArray[userNum - 1]);
 		}
 
 }

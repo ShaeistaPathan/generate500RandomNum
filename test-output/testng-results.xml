@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4670" started-at="2022-06-29T03:57:19Z" finished-at="2022-06-29T03:57:24Z">
+  <suite name="Default suite" duration-ms="5099" started-at="2022-06-29T20:43:09Z" finished-at="2022-06-29T20:43:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4670" started-at="2022-06-29T03:57:19Z" finished-at="2022-06-29T03:57:24Z">
+    <test name="Default test" duration-ms="5099" started-at="2022-06-29T20:43:09Z" finished-at="2022-06-29T20:43:15Z">
       <class name="randomNumbers.GenerateRandom500Numbers">
-        <test-method status="PASS" signature="generateRandomNumber()[pri:0, instance:randomNumbers.GenerateRandom500Numbers@7f77e91b]" name="generateRandomNumber" duration-ms="4653" started-at="2022-06-29T03:57:19Z" finished-at="2022-06-29T03:57:24Z">
+        <test-method status="PASS" signature="generateRandomNumber()[pri:0, instance:randomNumbers.GenerateRandom500Numbers@7f77e91b]" name="generateRandomNumber" duration-ms="5083" started-at="2022-06-29T20:43:09Z" finished-at="2022-06-29T20:43:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateRandomNumber -->
